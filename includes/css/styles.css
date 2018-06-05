@@ -1,0 +1,150 @@
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+#searchInput{
+   width: 200px;
+.navbar-brand:13px 15px;
+}
+
+  #image1,#image2,#image3{
+   width: 100%;
+   height: 224px;
+   
+  }
+  h1{
+   color: green;
+  }
+  h3{
+   text-align: center;
+  }
+
+  .panel-title{
+
+  }
+  
+  
+  
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+   #myCarousel{
+
+      margin-top: 100px;
+   }
+   .carousel-caption{
+      font-size: 24px;
+   }
+   .carousel-caption h4{
+      font-size: 32px;
+   }
+   #myCarousel .item{height: 400px;}
+   /*#slide1{
+      background: url('../../images/carousel_medium_01.jpg') top center no-repeat;
+   }*/
+
+   /*#slide2{
+      background: url('../../images/carousel_medium_02.jpg') top center no-repeat;
+   }*/
+
+   /*#slide3{
+      background: url('../../images/carousel_medium_03.jpg') top center no-repeat;
+   }
+*/
+
+
+
+
+header
+{
+   background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+
+}
+
+/*use of google font roboto*/
+p{
+   font-family: Roboto;
+   text-align: justify;
+}
+/*carousel */
+#myCarousel{
+   margin-top: 150px;
+}
+
+
+footer{
+   margin-top: 0px;
+   background:#7FFFD4;
+   color: black;
+   font-size:11px;
+   padding: 20px;
+}
+
+h6{
+  font-size: 20px;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+#im1 , #im3 , #im2 {
+  height: 400px;
+}
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+   #myCarousel .item{height: 400px;}
+   /*#slide1{
+      background: url('../../images/carousel_small_01.jpg') top center no-repeat;
+   }*/
+
+
+  /* #slide2{
+      background: url('../../images/carousel_small_02.jpg') top center no-repeat;
+   }
+*/
+   /*#slide3{
+      background: url('../../images/carousel_small_03.jpg') top center no-repeat;
+   }*/
+   .carousel-caption{
+      font-size: 16px;
+   }
+
+   .carousel-caption h4{
+      font-size: 22px;
+   }
+	
+}
+
+.jumbotron {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+   #myCarousel .item{height: 500px;}
+   /*#slide1{
+      background: url('../../images/carousel_large_01.jpg') top center no-repeat;
+   }*/
+
+
+   /*#slide2{
+      background: url('../../images/carousel_large_02.jpg') top center no-repeat;
+   }*/
+
+   /*#slide3{
+      background: url('../../images/carousel_large_03.jpg') top center no-repeat;
+   }*/
+	
+}
+
